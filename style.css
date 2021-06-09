@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 5px;
+    text-align: center;
+  }
+  body {
+    background-color:rgb(170, 170, 243);
+  }
+  nav {
+    display: flex;
+    background-color: #343a40;
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 55px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    nav,
+    ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  form{
+      padding: 5%;
+      
+  }
+  .calculator {
+    width: 450px;
+    height: 420px;
+    background-color: #c0c0c0;
+    box-shadow: 0px 0px 0px 10px #666;
+    border: 5px solid black;
+    border-radius: 10px;
+  }
+  #display {
+    width: 320px;
+    height: 40px;
+    text-align: right;
+    background-color: black;
+    border: 3px solid white;
+    font-size: 18px;
+    left: 2px;
+    top: 2px;
+    color: #7fff00;
+  }
+  .btnTop{
+    color: white;
+    background-color: #6f6f6f;
+    font-size: 14px;
+    margin: auto;
+    width: 50px;
+    height: 25px;
+  }
+  .btnNum {
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    margin: auto;
+    width: 50px;
+    height: 25px;
+  }
+  .btnMath {
+    color: white;
+    background-color: #ff4561;
+    font-size: 14px;
+    margin: auto;
+    width: 50px;
+    height: 25px;
+  }
+  .btnOpps {
+    color: white;
+    background-color: #ff9933;
+    font-size: 14px;
+    margin: auto;
+    width: 50px;
+    height: 25px;
+  }
